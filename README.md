@@ -52,9 +52,6 @@ Usage: cs-compiler-32bit.sh [options] source-files
    -out:FILE            Specifies output assembly name
    -pathmap:K=V[,Kn=Vn] Sets a mapping for source path names used in generated output
    -pkg:P1[,Pn]         References packages P1..Pn
-   -platform:ARCH       Specifies the target platform of the output assembly
-                        ARCH can be one of: anycpu, anycpu32bitpreferred, arm,
-                        x86, x64 or itanium. The default is anycpu.
    -recurse:SPEC        Recursively compiles files according to SPEC pattern
    -reference:A1[,An]   Imports metadata from the specified assembly (short: -r)
    -reference:ALIAS=A   Imports metadata using specified extern alias (short: -r)
@@ -103,9 +100,6 @@ Usage: cs-compiler-64bit.sh [options] source-files
    -out:FILE            Specifies output assembly name
    -pathmap:K=V[,Kn=Vn] Sets a mapping for source path names used in generated output
    -pkg:P1[,Pn]         References packages P1..Pn
-   -platform:ARCH       Specifies the target platform of the output assembly
-                        ARCH can be one of: anycpu, anycpu32bitpreferred, arm,
-                        x86, x64 or itanium. The default is anycpu.
    -recurse:SPEC        Recursively compiles files according to SPEC pattern
    -reference:A1[,An]   Imports metadata from the specified assembly (short: -r)
    -reference:ALIAS=A   Imports metadata using specified extern alias (short: -r)
@@ -154,9 +148,6 @@ Usage: cs-compiler-itanium.sh [options] source-files
    -out:FILE            Specifies output assembly name
    -pathmap:K=V[,Kn=Vn] Sets a mapping for source path names used in generated output
    -pkg:P1[,Pn]         References packages P1..Pn
-   -platform:ARCH       Specifies the target platform of the output assembly
-                        ARCH can be one of: anycpu, anycpu32bitpreferred, arm,
-                        x86, x64 or itanium. The default is anycpu.
    -recurse:SPEC        Recursively compiles files according to SPEC pattern
    -reference:A1[,An]   Imports metadata from the specified assembly (short: -r)
    -reference:ALIAS=A   Imports metadata using specified extern alias (short: -r)
@@ -205,9 +196,6 @@ Usage: cs-compiler-arm.sh [options] source-files
    -out:FILE            Specifies output assembly name
    -pathmap:K=V[,Kn=Vn] Sets a mapping for source path names used in generated output
    -pkg:P1[,Pn]         References packages P1..Pn
-   -platform:ARCH       Specifies the target platform of the output assembly
-                        ARCH can be one of: anycpu, anycpu32bitpreferred, arm,
-                        x86, x64 or itanium. The default is anycpu.
    -recurse:SPEC        Recursively compiles files according to SPEC pattern
    -reference:A1[,An]   Imports metadata from the specified assembly (short: -r)
    -reference:ALIAS=A   Imports metadata using specified extern alias (short: -r)
