@@ -28,7 +28,7 @@ Compile C# To Windows Executable On Linux
 5. Run script `./cs-compiler-arm.sh <options>`
 ### CSharp-Compiler-Win-Linux 32Bit Version Options
 ```
-cs-compiler-32bit.sh [options] source-files
+Usage: cs-compiler-32bit.sh [options] source-files
    --about              About the Mono C# compiler      
    -addmodule:M1[,Mn]   Adds the module to the generated assembly                                            
    -checked[+|-]        Sets default aritmetic overflow context
@@ -79,7 +79,7 @@ Options can be of the form -option or /option
 ```
 ### CSharp-Compiler-Win-Linux 64Bit Version Options
 ```
-cs-compiler-64bit.sh [options] source-files
+Usage: cs-compiler-64bit.sh [options] source-files
    --about              About the Mono C# compiler      
    -addmodule:M1[,Mn]   Adds the module to the generated assembly                                            
    -checked[+|-]        Sets default aritmetic overflow context
@@ -130,7 +130,7 @@ Options can be of the form -option or /option
 ```
 ### CSharp-Compiler-Win-Linux Itanium Version Options
 ```
-cs-compiler-itanium.sh [options] source-files
+Usage: cs-compiler-itanium.sh [options] source-files
    --about              About the Mono C# compiler      
    -addmodule:M1[,Mn]   Adds the module to the generated assembly                                            
    -checked[+|-]        Sets default aritmetic overflow context
@@ -181,7 +181,7 @@ Options can be of the form -option or /option
 ```
 ### CSharp-Compiler-Win-Linux Arm Version Options
 ```
-cs-compiler-arm.sh [options] source-files
+Usage: cs-compiler-arm.sh [options] source-files
    --about              About the Mono C# compiler      
    -addmodule:M1[,Mn]   Adds the module to the generated assembly                                            
    -checked[+|-]        Sets default aritmetic overflow context
