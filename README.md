@@ -218,4 +218,3 @@ Resources:
 
 Options can be of the form -option or /option
 ```
-.
